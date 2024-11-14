@@ -1,0 +1,56 @@
+package Model;
+
+public class Data {
+	
+	private int dia;
+    private int mes;
+    private int ano;
+
+    public int getDia()
+    {
+    	return dia;
+    }
+    public void setDia(int dia)
+    {
+    	
+    	this.dia = dia;
+    }
+    public int getMes() 
+    {
+    	return mes;
+    }
+    public void setMes(int mes) 
+    {
+    	this.mes = mes;
+     }
+    public int getAno() 
+    {
+    	return ano;
+    }
+    public void setAno(int ano) 
+    {
+    	this.ano = ano;
+     }
+   
+    public Data(int dia, int mes, int ano) 
+    {
+    	super();
+    	this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+    }
+
+    public boolean comparaData(int d, int m, int a) 
+    {
+    	if (d==this.dia && m==this.mes && a==this.ano)
+    		return true;
+        return false;
+        }
+
+   public String toString()
+   {
+	   return ("\n" + dia + "/ " + mes + "/" + ano);
+   }}
+// Data,compromisso e Hora está ligado a agenda
+
+
