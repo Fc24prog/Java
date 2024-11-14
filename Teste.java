@@ -1,6 +1,6 @@
-package Administracao;
+package administracao;
 
-import Empresa.Funcionario;
+import empresa.FuncionarioMercado;
 import java.util.Scanner;
 
 public class Teste {
@@ -8,10 +8,10 @@ public class Teste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Funcionario f1, f2;
+        FuncionarioMercado f1, f2;
        
-        f1 = new Funcionario("Cássia","Santana",3600);
-        f2 = new Funcionario("Paola", "Cristina", 2500);
+        f1 = new FuncionarioMercado("Cássia","Santana",3600);
+        f2 = new FuncionarioMercado("Paola", "Cristina", 2500);
 
    
         System.out.println("Funcionario 1 antes do aumento : " + f1.getNome());
