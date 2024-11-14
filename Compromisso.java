@@ -39,4 +39,7 @@ public class Compromisso {
 "\nHorario" + horario);
   }  }
 
- /* composição - fazer parte de algo */
+ // composição - fazer parte de algo 
+  // Data,compromisso e Hora está ligado a agenda
+
+
