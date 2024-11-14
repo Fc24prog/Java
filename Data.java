@@ -1,4 +1,4 @@
-package Model;
+package modelo;
 
 public class Data {
 	
@@ -51,6 +51,7 @@ public class Data {
    {
 	   return ("\n" + dia + "/ " + mes + "/" + ano);
    }}
-// Data,compromisso e Hora está ligado a agenda
 
 
+// data é o mesmo do exemplo passado, foi usado nesse exemplo. 
+// Data faz parte de funcionario, pessoa.
