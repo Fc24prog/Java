@@ -63,4 +63,4 @@ Sua classe deve ter um construtor que inicializa os três atributos. Forneça um
 get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
 Escreva uma classe de teste e crie duas instâncias da classe e exiba o salário anual de
 cada funcionário. Então dê a cada funcionário um aumento de 10% e exiba novamente o
-salário anual deles. */ 
+salário anual deles. */ /* é a parte de teste*/
