@@ -35,4 +35,4 @@ public class Teste {
         System.out.println("Funcionario 2 depois do aumento: " + f2.getSalario());
         
         sc.close();
-    }}
+    }} /* é a parte principal de funcionario */ 
