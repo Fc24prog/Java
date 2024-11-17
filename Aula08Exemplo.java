@@ -25,5 +25,4 @@ public class Aula08Exemplo {
 		
        System.out.println("Soma: "+soma);
        sc.close(); 
-		double numeros[] = new double[5];
-		Arrays.fill(numeros, 12.8);}}
+	}}
