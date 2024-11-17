@@ -33,7 +33,7 @@ public class ExercicioNotaArray {
 		
 		Arrays.sort(nt);
 		System.out.println("Notas ordenadas:");
-		//System.out.println(Arrays.toString(nt));
+		System.out.println(Arrays.toString(nt));
 
 }}
 
