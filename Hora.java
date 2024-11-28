@@ -1,55 +1,53 @@
-package Model;
+package modelo;
 
 public class Hora {
 	
-	private int hora;
-    private int min;
-    private int seg;
-    
-    public Hora(int hora, int min, int seg) 
-    {
-    	super();
-        this.hora = hora;
-        this.min = min;
-        this.seg = seg;
-    }
-    public int getHora() 
-    {
-    	return hora;
-    }
-    public void setHora(int hora)
-    {
-    	this.hora = hora;
-    }
+	private double hora, minuto,segundo;
 
-    public int getMin()
-    {
-    	return min;
-    }
-    public void setMin(int min)
-    {
-    	this.min = min;
-    }
-    public int getSeg()
-    {
-    	return seg;
-    }
+	public Hora(double h, double min, double s) 
+	{
+		super();
+		this.hora = h;
+		this.minuto = min;
+		this.segundo = s;
+	}
 
-    public void setSeg(int seg)
-    {
-    	this.seg = seg;
-     }
+	public double getHora() {
+		return hora;
+	}
 
-    public boolean comparaHora(int h, int m, int s)
-    {
-    	if (h==this.hora && m==this.min && s==this.seg)
-    		return true;
-        return false;
+	public void setHora(double hora) {
+		this.hora = hora;
+	}
 
-    }
-    public String toString()
-    {
-    	return ("\n" + hora + " :" + min + ":" + seg);
-    }}
-//Data,compromisso e Hora está ligado a agenda
+	public double getMin() {
+		return minuto;
+	}
 
+	public void setMin(double min) {
+		this.minuto = minuto;
+	}
+
+	public double getSegundo() {
+		return segundo;
+	}
+
+	public void setSegundo(double segundo) {
+		this.segundo = segundo;
+	}
+	
+	public boolean elgual (int h, int min, int s)
+	{
+		if ((h==hora) && (minuto==min) && (s==segundo))
+		
+			return true;
+		
+		else
+			return false; 
+	}
+	public String toString()
+	{
+		return (hora + ":" + minuto + ":" + segundo);
+	}
+
+}
